@@ -181,3 +181,53 @@ main .second-section p em {
     display: block;
     text-align: left;
 }
+
+main .third-section {
+    padding: 150px 350px 150px 350px;
+    margin: 0 auto;
+}
+
+main .third-section .signup-container {
+    background-color: #3882F6;
+    padding: 50px 150px;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+main .third-section .signup-container .another-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .third-section .signup-container .another-container .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .third-section .signup-container .another-container .text-container h3 {
+    font-size: 24px;
+}
+
+main .third-section .signup-container .another-container .text-container p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+main .third-section .signup-container .another-container .button-container button {
+    font-size: 18px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 3px solid #F9FAF8;
+    font-weight: bold;
+}
+
+main .third-section .signup-container .another-container .button-container button:hover {
+    cursor: pointer;
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
