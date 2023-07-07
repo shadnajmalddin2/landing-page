@@ -1,1 +1,1 @@
-# landing-page
+This is a landing page that is created for the purpose of practicing beginner-level HTML and CSS, from the curriculum of The Odin Project.
