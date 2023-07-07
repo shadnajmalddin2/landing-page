@@ -6,7 +6,7 @@
     font-family: Roboto, sans-serif;
 }
 
-.header {
+header {
     color: #F9FAF8;
     background-color: #1F2937;
 }
@@ -24,8 +24,14 @@
 }
 
 .main-logo {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.main-logo:hover {
+    cursor: pointer;
 }
 
 .navbar {
@@ -37,8 +43,12 @@
 .navbar a {
     color: #E5E7EB;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     align-self: center;
+}
+
+.navbar a:hover {
+    color: #F9FAF8;
 }
 
 .main-container {
@@ -49,8 +59,11 @@
     margin-top: 100px;
 }
 
-.description {
+.main-container .description {
+    display: flex;
+    flex-direction: column;
     width: 45%;
+    gap: 15px;
 }
 
 .description h1 {
@@ -61,12 +74,10 @@
 
 .description p {
     color: #E5E7EB;
-    margin-top: 20px;
     font-size: 18px;
 }
 
 .description button {
-    margin-top: 20px;
     background-color: #3882F6;
     border: 0;
     color: #F9FAF8;
@@ -78,6 +89,8 @@
 }
 
 .description button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
     cursor: pointer;
 }
 
@@ -93,4 +106,147 @@
     position: absolute;
     top: 275px;
     right: 525px;
+}
+
+main .first-section {
+    background-color: #F9FAF8;
+    padding: 15px 500px 150px 500px;
+    margin: 0 auto;
+}
+
+main .first-section .first-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+main .first-section .first-section-container .information-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+main .first-section .first-section-container .information-section h2 {
+    font-size: 36px;
+}
+
+main .first-section .first-section-container .information-parts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+main .first-section .first-section-container .information-parts .information-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.information-part .image-placeholder {
+    width: 175px;
+    height: 165px;
+    border: 3px solid #3882F6;
+    border-radius: 7.5px;
+}
+
+.information-part p {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+
+main .second-section {
+    background-color: #E5E7EB;
+    padding: 150px 535px 100px 535px;
+    margin: 0 auto;
+}
+
+main .second-section p {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+}
+
+main .second-section p em {
+    font-size: 36px;
+    color: #1F2937;
+    line-height: 1.5;
+    font-weight: normal;
+    display: block;
+    text-align: left;
+}
+
+main .third-section {
+    padding: 150px 350px 150px 350px;
+    margin: 0 auto;
+}
+
+main .third-section .signup-container {
+    background-color: #3882F6;
+    padding: 50px 150px;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+main .third-section .signup-container .another-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .third-section .signup-container .another-container .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .third-section .signup-container .another-container .text-container h3 {
+    font-size: 24px;
+}
+
+main .third-section .signup-container .another-container .text-container p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+main .third-section .signup-container .another-container .button-container button {
+    font-size: 18px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 3px solid #F9FAF8;
+    font-weight: bold;
+}
+
+main .third-section .signup-container .another-container .button-container button:hover {
+    cursor: pointer;
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 40px 350px 40px 350px;
+}
+
+footer .footer-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-container p,
+footer .footer-container a {
+    font-size: 18px;
+    color: #E5E7EB;
 }
