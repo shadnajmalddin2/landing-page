@@ -231,3 +231,22 @@ main .third-section .signup-container .another-container .button-container butto
     background-color: #F9FAF8;
     color: #3882F6;
 }
+
+footer {
+    background-color: #1F2937;
+    padding: 40px 350px 40px 350px;
+}
+
+footer .footer-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-container p,
+footer .footer-container a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
