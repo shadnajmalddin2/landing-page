@@ -1,1 +1,1 @@
-# landing-page
+This is a landing page project that is being made for practicing HTML and CSS for a beginner-level.
